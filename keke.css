@@ -1,0 +1,64 @@
+body
+{
+	background-image: url(112.jpg);
+	background-size: cover;
+}
+.register{
+	background-color: white;
+	width: 600px;
+	height: 600px;
+	box-sizing: border-box;
+	padding: 70px 40px;
+	transform: translate(-50%,-50%);
+	margin-left:50%;
+	margin-right:50%;
+	margin-top: 360px;
+	background-size: cover;
+	background-position: center;
+}
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: -50px;
+	font-family: castellar;
+}
+.register input{
+	margin-bottom: 30px;
+	width: 100px;
+	height: 2px;
+	margin-left: 50px;
+
+	}
+.register input[type="text"],input[type="password"],input[type="email"]{
+	background-color: transparent;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px black white;
+	font-family: jokerman;
+	padding: 20px;
+	text-align: center;
+	color: black;
+	width: 10.5rem;
+}
+button[type="submit"],button[type="reset"]{
+	border: none;
+	background-color: tomato;
+	text-align: center;
+	width: 100px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-family: argerian;
+	color: black;
+
+}
+.avator{
+	border-radius: 5px;
+}
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}

@@ -1,0 +1,78 @@
+.tit ul{
+		list-style-type: none;
+		margin: 20px;
+		padding: 0;
+		overflow: hidden;
+		background-color: black;
+		background-size: cover;
+		font-family: jokerman;
+		border-radius: 15px;
+		box-shadow: 3px 3px 3px 3px black;
+		
+	}
+
+.tit li{
+	float: left;	
+}
+.tit li a{
+	display: block;
+	color: tomato;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+	border-radius: 15px;
+}
+.tit li a:hover{
+ color: skyblue;
+ box-shadow:3px 3px 3px 3px black;
+}
+input[type=text],[type=password]{
+	width: 100%;
+	margin: 8px 0;
+	padding: 12px 20px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 4px solid green;
+	box-sizing: border-box;
+}
+button{
+	background-color: transparent;
+	color: white;
+	font-family: Baskerville Old Face;
+	border: none; 
+	width: 80px; 
+	height: 30px; 
+	border-radius:20px;  
+	font-size: 18px;
+	font-weight: bold;
+}
+a[type="submit"]:hover{
+	background-image: url(03.jpg);
+	color: tomato;
+	background-color: grey;
+	box-shadow: 3px 3px 3px 3px black;
+}
+button[type="reset"]:hover{
+	background-image: url(titi.jpg);
+	color: tomato;
+	background-color: transparent;
+	box-shadow: 3px 3px 3px 3px black;
+}
+tr td {
+	font-weight: italic;
+	font-size: 20px;
+	font-family: Harlow Solid Italic;
+	color: white;
+}
+	fieldset{
+		width: 600px;
+		background-color: black;
+		box-shadow: 5px 5px 5px 5px black;
+		border-radius: 35px;
+	}
+	legend{
+		color: white;
+		font-family: jokerman;
+		border-top: none;
+	}
